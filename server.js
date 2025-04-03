@@ -33,7 +33,7 @@ app.use("/api/proposals", proposalRoutes);
 
 // Default Route
 app.get("/", (req, res) => {
-  res.send("🔥 TalentZup API is running...");
+  res.send(" TalentZup API is perfectly running in Port number 7000...");
 });
 
 // Database Connection
